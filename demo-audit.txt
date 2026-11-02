@@ -1,0 +1,7 @@
+Capture: demo.pcap
+Packets: 1 total, 1 IPv4
+IPv4 protocols: TCP=1
+Malformed packets: 0
+Plaintext exposure indicators:
+  packet 1: 192.0.2.10:49152 -> 198.51.100.20:80 [HTTP; HTTP message bytes]
+Note: port matches indicate potential exposure; only listed payload signatures confirm recognizable plaintext protocol bytes in that packet.
